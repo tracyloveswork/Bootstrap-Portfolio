@@ -1,0 +1,154 @@
+			.navbar, .greyBG {
+			background-color: #222;
+			border: none;
+			}
+			.blackBG {
+				background-color: #000;
+				border: none;
+			}
+			.navbar-brand {
+			font-weight: normal;
+			text-transform: uppercase;
+			color: #F8971D !important;
+			font-size: 18px;
+			background-color: #000;
+			height: 80px;
+			padding: 30px 20px 30px 20px;
+						}
+			h1, .panel-title {
+			font-family: 'Montserrat', sans-serif;
+			font-size: 11px;
+			text-transform: uppercase;
+			font-weight: 600;
+			color: #ccc;
+			border-bottom: 1px solid lightgrey;
+				padding-bottom:20px;
+			}
+
+			.panel-title {
+
+				padding: 20px 0px 20px 0px;
+				margin: 0px 20px 0px 20px;
+			}
+
+			.form-group {
+
+				padding: 0 20px 0 20px;
+			}
+
+			.btn {
+
+				margin: 10px 20px 0 20px;
+				background-color: #F8971D;
+			    color: white;
+			    text-transform: uppercase;
+			    border:none;
+			}
+
+
+			a.navbar-right {
+				color: white !important;
+				text-decoration: none;
+				}
+			
+			a.navbar-right:hover {
+				color: #FED301 !important;
+			}
+			.navbar-nav {
+					padding-top:20px;
+			}
+
+			body {
+			background-color: #000;
+			background-image: url(../images/background-pattern-black.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			font-family: 'Montserrat', sans-serif;
+			color: #ccc;
+			}
+			p {
+			font-family: sans-serif;
+			font-weight: 100;
+			font-size: 12px;
+			padding: 5px;
+			line-height: 1.5;
+			}
+			strong {
+			font-weight: bold;
+			color: #F8971D;
+			}
+			.icon {
+			float: left;
+			height: 60px;
+			padding-right: 15px;
+			}
+			.noSpaceRight {
+			padding-right: 0px !important;
+			}
+
+			/*Portfolio Styles*/
+
+			.portfolioThumb {
+			    width: 275px;
+			    height: 205px;
+			    border: 1px solid #222;
+			    margin-top: 20px;
+			    margin-bottom: 20px;
+			    background-size: 275px 205px;
+			    background-repeat: no-repeat;
+			}
+
+			#age {
+			    background-image: linear-gradient(to top, black 0%, white 100%), url('../images/thumbsPortfolioHW_sweptWing.jpg');
+			    background-blend-mode: overlay;
+			}
+
+			#ecamps {
+			    background-image: linear-gradient(to top, black 0%, white 100%), url('../images/thumbsPortfolioHW_ecamps.jpg');
+			    background-blend-mode: multiply;
+			}
+
+			#trivia {
+			    background-image: linear-gradient(to top, black 0%, white 100%), url('../images/thumbsPortfolioHW_trivia.jpg');
+			    background-blend-mode: multiply;
+			}
+
+			#malts {
+			    background-image: linear-gradient(to top, black 0%, white 100%), url('../images/thumbsPortfolioHW_malts.jpg');
+			    background-blend-mode: multiply;
+			}
+
+			#jw {
+			    background-image: linear-gradient(to top, black 0%, white 100%), url('../images/thumbsPortfolioHW_jw.jpg');
+			    background-blend-mode: multiply;
+			}
+
+
+			.ghost-button {
+			    display: inline-block;
+			    width: 200px;
+			    padding: 8px;
+			    color: #fff;
+			    border: 1px solid #ccc;
+			    text-align: center;
+			    outline: none;
+			    text-decoration: none;
+			    position: relative;
+			    top: 135px;
+			    left: 35px;
+			}
+
+			a.ghost {
+			    font-size: 11px;
+			    text-transform: uppercase;
+			}
+
+			a.ghost:hover {
+			    color: #26B4D9;
+			}
+
+			.ghost-button:hover,
+			.ghost-button:active {
+			    background-color: #000;
+			    color: #26B4D9;
+			}
